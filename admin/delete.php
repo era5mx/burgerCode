@@ -9,6 +9,7 @@
 
 require_once('../includes/config.php');
 require 'database.php';
+include(!file_exists('../lang/lang_' . APP_LANG . '.php') ? '../lang/lang_en.php' : '../lang/lang_' . APP_LANG . '.php' );
 
 if (!empty($_GET['id'])) {
     $id = checkInput($_GET['id']);

@@ -7,6 +7,7 @@
  * Author page: http://david.rengifo.mx/
  */
 require_once('includes/config.php');
+include(!file_exists('lang/lang_' . APP_LANG . '.php') ? 'lang/lang_en.php' : 'lang/lang_' . APP_LANG . '.php' );
 ?>
 
 <!DOCTYPE html>

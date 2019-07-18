@@ -9,6 +9,7 @@
 
 require_once('../includes/config.php');
 require 'database.php';
+include(!file_exists('../lang/lang_' . APP_LANG . '.php') ? '../lang/lang_en.php' : '../lang/lang_' . APP_LANG . '.php' );
 
 $nameError = $descriptionError = $priceError = $categoryError = $imageError = $name = $description = $price = $category = $image = "";
 

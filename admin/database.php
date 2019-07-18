@@ -1,5 +1,4 @@
 <?php
-
 /*
  * ------------------------------------------------------------------------
  * Burger v.1.0
@@ -11,10 +10,10 @@
 class Database {
 
     private static $dbHost = "localhost";
-    private static $dbPort = "3336";
+    private static $dbPort = "3306";
     private static $dbName = "burger";
     private static $dbUsername = "burger";
-    private static $dbUserpassword = "eRa5.mx";
+    private static $dbUserpassword = "{CHANGE_PASSWORD}";
     private static $connection = null;
 
     public static function connect() {
