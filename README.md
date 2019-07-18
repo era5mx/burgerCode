@@ -6,3 +6,15 @@ This modification made by [David Rengifo](http://david.rengifo.mx) to update the
 
 If you find any bug, and a fix for that bug, please leave a comment on the github page for this project and i will push the change into the master branch.
 
+### Installing this application is fairly easy, just follow these steps:
+****
+
+1. Download the latest version with git (`git clone https://github.com/era5mx/burgerCode.git`)
+
+2. Import/load burgercode_fini.sql into your mysql database. This should set up the basic structure of the database system.
+
+3. Modify the admin/database.php and change the variables to match your host, port, database name, username and passwords.
+
+4. Modify the includes/config.php and define the application configuration.
+
+5. Good luck!  
